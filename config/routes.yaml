@@ -1,0 +1,4 @@
+command:
+  path: /api/voice/command
+  methods: [POST]
+  controller: App\Controller\VoiceCommand
