@@ -6,6 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "aws/aws-sdk-php-symfony": "^2.1",
+        "google/cloud-speech": "^0.30.0",
         "league/flysystem-aws-s3-v3": "^1.0",
         "league/flysystem-bundle": "^1.4",
         "symfony/console": "5.0.*",

@@ -14,6 +14,33 @@
             "config/packages/aws.yaml"
         ]
     },
+    "firebase/php-jwt": {
+        "version": "v5.0.0"
+    },
+    "google/auth": {
+        "version": "v1.6.1"
+    },
+    "google/cloud-core": {
+        "version": "v1.34.0"
+    },
+    "google/cloud-speech": {
+        "version": "v0.30.0"
+    },
+    "google/common-protos": {
+        "version": "1.1"
+    },
+    "google/gax": {
+        "version": "1.2.0"
+    },
+    "google/grpc-gcp": {
+        "version": "0.1.4"
+    },
+    "google/protobuf": {
+        "version": "v3.11.2"
+    },
+    "grpc/grpc": {
+        "version": "1.26.2"
+    },
     "guzzlehttp/guzzle": {
         "version": "6.5.2"
     },
@@ -42,6 +69,9 @@
             "var/storage/.gitignore"
         ]
     },
+    "monolog/monolog": {
+        "version": "2.0.2"
+    },
     "mtdowling/jmespath.php": {
         "version": "2.5.0"
     },
@@ -65,6 +95,9 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
+    },
+    "rize/uri-template": {
+        "version": "0.3.2"
     },
     "symfony/cache": {
         "version": "v5.0.3"

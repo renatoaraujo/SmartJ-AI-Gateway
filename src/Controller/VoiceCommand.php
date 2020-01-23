@@ -30,8 +30,8 @@ final class VoiceCommand
             throw new BadRequestHttpException('"file" is required');
         }
 
-        $this->processor->process($audioFile);
+        $response = $this->processor->process($audioFile);
 
-        return new JsonResponse([], 200);
+        return new JsonResponse($response, 200);
     }
 }
